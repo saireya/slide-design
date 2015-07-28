@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../texml2html.xsl"?>
+<log xmlns:xi="http://www.w3.org/2003/XInclude" title="What is &quot;Design&quot;?" by="" slide="1" embed="1">
+<article>
+<s h="What is Design?">
+<frame title="\insertsection">
+<!-- TODO: 画像に差し替え -->
+<block>
+デザインは<em>誰もが</em>、<em>いつも</em>行っていること!
+<ul>
+	<li>スライドのデザイン、プレゼンテーションのデザイン</li>
+	<li>建築物のデザイン、都市のデザイン</li>
+	<li>言葉のデザイン(広告、tweet、LINEのメッセージ)</li>
+	<li>音楽のデザイン(作曲、編曲)</li>
+	<li>...</li>
+</ul>
+</block>
+</frame>
+
+<frame title="\insertsection">
+<block title="Design vs. Art">
+<tabular src="plan-ui-design-and-art.csv" align="cc" title="design $\neq$ art"/>
+<size size="small">
+出典: Admix Web「Design and Art: Are They the Same?」
+<a href="http://www.admixweb.com/2009/11/11/design-and-art-are-they-the-same"/><br/>
+和訳: Webクリエイターボックス「アートとデザインの違いは?」<br/>
+<a href="http://www.webcreatorbox.com/webinfo/art-design"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsection">
+<block title="&quot;Form Follows Function&quot;" class="alert">
+アメリカの建築家ルイス・サリヴァン(1856-1924)の言葉
+<ul>
+	<li>「<alert>形(form)は機能(function)に従う</alert>」の意味</li>
+	<li>いわゆる「<em>機能美</em>」<br/>(「かわいいものはダメ」という意味ではない)</li>
+	<li mark="⇨">どういう目的があるのか、どんな機能を果たすのか、何を伝えるのかが決まれば、見た目・デザインは<alert>必然的に</alert>決まる</li>
+	<li mark="⇨"><alert>デザインは理詰めで(logicalに)決まる</alert><br/>
+		デザインは、感覚(sense)や才能で選ぶものではない!</li>
+</ul>
+</block>
+<multicols num="2">
+<img src="slide-ui-Bayard–Condict-building.jpg" scale=".3" title="Bayard–Condict Building"/>
+<img src="slide-ui-Wainwright-building.jpg" scale=".4" title="Wainwright Building"/>
+</multicols>
+</frame>
+
+<frame title="\insertsection">
+<block title="How to make my design better?">
+学ぶことで、<em>誰でも良いデザインを作れる</em>ようになる!
+<ul>
+	<li>配色を学ぶ?</li>
+	<li>デザインに関する本を読む?</li>
+	<li>良いデザインをたくさん知る?</li>
+	<li mark="⇨">もっと<em>根本的なこと</em>を学ぶことが大事!</li>
+</ul>
+</block>
+<img src="slide-ui-design.svg" scale=".5" title="&quot;What&quot; to learn?"/>
+</frame>
+
+<frame title="\insertsection">
+<block class="alert">
+「デザインを学ぶ」=「<alert>人間を</alert>学ぶ」
+<ul>
+	<li>人間はどのように<em>知覚/思考/学習/記憶/行動</em>するのか?</li>
+	<li mark="⇨">普遍的な人間の行動原則から、普遍的なデザイン原理が見えてくる</li>
+	<li mark="⇨">すべての人に使いやすい<alert>ユニバーサルデザイン(UD)</alert>へ!</li>
+</ul>
+</block>
+<img src="slide-ui-design2.svg" scale=".5" title="&quot;learning design&quot; is &quot;learning human being&quot;"/>
+
+<block class="alert" title="ユニバーサルデザイン(UD)" xml:id="b-ud">
+ある特性をもつ人だけでなく、<alert>すべての人にとって</alert>使いやすいデザイン
+</block>
+</frame>
+
+
+</s>
+<s h="デザイン原理1: Affordance">
+<s h="学習障害(LD)">
+<frame title="\insertsubsection">
+<block class="example">
+全般的な知的発達に遅れはないが、<em>聞く、話す、読む、書く、計算する、推論する</em>能力のうち特定のものの<em>習得と使用に著しい困難</em>を示す
+<img src="slide-ui-ld1.jpg" title="かけ算の筆算"/>
+<size size="small">
+出典:「掛け算の筆算 スペース足りない - 小学生の家庭学習 これからどうする?」
+<a href="http://smile20aw.blog.fc2.com/blog-entry-4.html"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block class="example">
+<em>書く</em>ことのみが困難なのに、他の勉強にもついていけなくなってくる<br/>(<em>計算する</em>能力は問題ない!)
+<img src="slide-ui-ld2.jpg" title="方眼紙を使うと解ける!"/>
+<size size="small">
+出典:「掛け算の筆算 スペース足りない - 小学生の家庭学習 これからどうする?」
+<a href="http://smile20aw.blog.fc2.com/blog-entry-4.html"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block class="example">
+問題: 白紙の紙だと、<em>どこに</em>、<em>どんな大きさで</em>字を書けばいいか分からない(ので、思いつくまま書いた結果、場所が足りなくなり、間違えてしまう)
+<ul>
+	<li mark="⇨">マス目があり、<alert>どこに書くかが明確に</alert>なっていると書ける!</li>
+	<li mark="⇨"><alert>良いデザイン</alert>をすれば、問題が解けるようになる!</li>
+</ul>
+</block>
+<multicols num="2">
+<img src="slide-ui-ld1.jpg" scale=".9" title="白紙に書いた場合"/>
+<img src="slide-ui-ld2.jpg" scale=".9" title="方眼紙に書いた場合"/>
+</multicols>
+</frame>
+
+
+</s>
+<s h="Affordance">
+<frame title="\insertsubsection">
+<block class="alert" title="デザイン原理1: Affordance">
+<ul xml:id="ul-affordance">
+	<li>人間とモノとの間の関係性のことを<alert>affordance</alert>という</li>
+	<li>例.「紙」に「字を書ける」、「扉」に「開ける」など</li>
+	<li mark="⇨">affordanceを<em>上手く知覚</em>できるような<alert>手がかり(ヒント)</alert>が必要</li>
+</ul>
+<img src="slide-ui-door1.jpg" scale=".15" title="ドアの取っ手(affordanceを知覚するヒント)"/>
+<size size="small">
+出典: <a href="http://badui.org/articles/pull_or_push.html"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block class="alert" title="デザイン原理1: Affordance">
+<xi:include xpointer="xpointer(id('ul-affordance'))"/>
+<img src="slide-ui-door2.jpg" scale=".15" title="引いても開かない!"/>
+<size size="small">
+出典: <a href="http://badui.org/articles/pull_or_push.html"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block class="example" title="悪い手がかりの例">
+<ul>
+	<li>「取っ手」(という記号)は「これは<em>引いて</em>開ける扉」だと認識させる</li>
+	<li>実際は「<em>押して</em>開ける扉」なので、「引いたのに開かない!」となる</li>
+	<li mark="⇨"><alert>誤った手がかりは利用者を混乱</alert>させる</li>
+</ul>
+<img src="slide-ui-door3.jpg" scale=".15" title="押すと開く!(誤ったヒントの例)"/>
+<size size="small">
+出典: <a href="http://badui.org/articles/pull_or_push.html"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="UDの例: 東大ノート" class="example">
+「白紙の紙に書きにくい」のは、LDという特性を持った人だけ?
+<ul>
+	<li mark="⇨">プレッシャー、文が斜めになるetc.</li>
+	<li mark="⇨">誰にでも書きやすい「ドット入り罫線ノート(通称:東大ノート)」<br/><a href="http://www.kokuyo-st.co.jp/stationery/dotkei"/></li>
+</ul>
+</block>
+<multicols num="2">
+<img src="slide-ui-dotnote2.jpg" scale=".4" title="ドット入り罫線ノート"/>
+<img src="slide-ui-dotnote.jpg" scale=".4" title="ドット入り罫線ノートの利点"/>
+</multicols>
+</frame>
+
+
+</s>
+</s>
+<s h="デザイン原理2: 対応付け">
+<s h="色覚異常">
+<frame title="\insertsubsection">
+<block class="example">
+「<em>急行</em>に乗りたいのですが…」
+<ul>
+	<li>どの電車に乗ればいい?</li>
+	<li>8:23発と9:31発の電車は同じ種別?</li>
+	<li mark="※">桜マークは女性専用車の有る電車</li>
+</ul>
+<img src="slide-ui-keio1.jpg" scale=".2" title="京王電鉄府中駅の時刻表" n="fig:keio1"/>
+<size size="small">
+出典:<a href="http://w0s.jp/diary/285">「アクセシビリティキャンプ東京 第6回 と駅時刻表の色について - 富永日記帳」</a>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block class="example">
+<em>色の見え方・感じ方</em>が、多くの色覚正常といわれる人とは異なる状態
+<ul>
+	<li>日本人男性の$5\%$、日本人女性の$0.2\%$、仏・北欧では男性の$10\%$</li>
+	<li>区別しにくい色が普通の人と違う(特に<c fg="red">赤</c>と<c fg="green">緑</c>)だけで、色がわからない訳でも白黒の世界を見ている訳でもない</li>
+</ul>
+<img src="slide-ui-keio2.jpg" scale=".2" title="8:23発は急行, 9:31発は特急" n="fig:keio2"/>
+<size size="small">
+出典:<a href="http://w0s.jp/diary/285">「アクセシビリティキャンプ東京 第6回 と駅時刻表の色について - 富永日記帳」</a>
+</size>
+</block>
+</frame>
+
+</s>
+<s h="対応付け">
+<frame title="\insertsubsection">
+<block title="デザイン原理2: 対応付け" class="alert">
+<alert>対応付け</alert>の方法が不適切だと、どれとどれが対応しているか見分けられない
+<ul xml:id="ul-map">
+	<li>「色覚異常の人に配慮した配色」ができれば良いが、難しい!</li>
+	<li mark="⇨"><alert>色だけに依存した対応付けは行わない</alert><br/><em>色以外の方法でも区別</em>できるように、色はあくまで<em>補助的に</em>使う</li>
+</ul>
+<multicols num="2">
+<img src="slide-ui-graph1.png" scale=".25" title="色だけで区別したグラフ"/>
+<img src="slide-ui-graph2.png" scale=".25" title="色が見えにくいと区別できない"/>
+</multicols>
+<size size="small">
+出典:福島県『カラーユニバーサルデザインガイド』<br/>
+<a href="http://www.pref.fukushima.lg.jp/sec/16005c/ud-cudguide04.html"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="デザイン原理2: 対応付け" class="alert">
+<alert>対応付け</alert>の方法が不適切だと、どれとどれが対応しているか見分けられない
+<xi:include xpointer="xpointer(id('ul-map'))"/>
+<multicols num="2">
+<img src="slide-ui-graph3.png" scale=".25" title="線や点の形でも区別"/>
+<img src="slide-ui-graph4.png" scale=".25" title="色が見えにくくても区別できる"/>
+</multicols>
+<size size="small">
+出典:福島県『カラーユニバーサルデザインガイド』<br/>
+<a href="http://www.pref.fukushima.lg.jp/sec/16005c/ud-cudguide04.html"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="UDの例: 白黒コピーでも見えるグラフ" class="example">
+色に配慮して嬉しいのは、色の見え方に特性がある人だけ?
+<ul>
+	<li mark="⇨">カラーの資料が白黒コピーで配られて「見えない!」</li>
+	<li mark="⇨">色以外の情報でも区別できるグラフなら困らない!<br/>
+		<em>線の種類</em>や<em>点の形</em>を調整する、<em>線の近くにラベル</em>を置くetc.</li>
+</ul>
+<multicols num="2">
+<img src="slide-ui-graph3.png" scale=".25" title="線や点の形でも区別"/>
+<img src="slide-ui-graph5.png" scale=".34" title="白黒でも区別できる"/>
+</multicols>
+<size size="small">
+出典:福島県『カラーユニバーサルデザインガイド』<br/>
+<a href="http://www.pref.fukushima.lg.jp/sec/16005c/ud-cudguide04.html"/>
+</size>
+</block>
+</frame>
+
+
+</s>
+</s>
+<s h="デザイン原理3: 制約">
+<s h="自閉スペクトラム障害(ASD)">
+<frame title="\insertsubsection">
+<block class="example">
+他人との<em>社会的関係の形成の困難さ</em>、<em>言葉の発達の遅れ</em>、興味や関心が狭く<em>特定のものにこだわる</em>ことを特徴とする行動の障害
+<ul>
+	<li mark="※">以前「自閉症」「アスペルガー症候群」と呼ばれていたもの</li>
+</ul>
+</block>
+
+<block class="example" title="ASDの人の特徴">
+<ul>
+	<li>言葉の<em>裏の意味・皮肉</em>を理解しにくい</li>
+	<li><em>曖昧な(不明瞭な・一貫性のない)指示</em>を理解しにくい</li>
+	<li><em>暗黙のルール</em>(いわゆる「<em>常識</em>」)が分かりにくい</li>
+	<li>人の言うことを<em>鵜呑み</em>にしてしまう・<em>騙され</em>やすい</li>
+	<li><em>複数の答え</em>がある質問に答えにくい</li>
+</ul>
+<size size="small">出典:<a href="http://asperger.nerim.info">「アスペな大人」</a></size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block class="example" title="「暗黙のルール」の例">
+<img src="slide-ui-post.svg" scale=".4" wrapwidth="5cm" n="fig:post" title="フローチャート表現" xml:id="fig-post"/>
+「郵便受けを見てきて!」という指示には、<br/>
+「
+<ol>
+	<li>郵便受けのある<em>玄関まで行く</em></li>
+	<li>郵便受けの<em>フタを開ける</em></li>
+	<li>郵便受けの中に<br/>
+		<em>郵便物が入っているか確認</em>する</li>
+	<li>もし<em>郵便物が入っていたら</em>、<br/>
+		<em>それを取り出す</em></li>
+	<li>郵便受けの<em>フタを閉める</em></li>
+	<li>居間へ戻ってくる</li>
+</ol>
+…ということをしてほしい」<br/>
+という<alert>極めて複雑</alert>な意味がある
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block class="example" title="典型的なASDの人とのコミュニケーション">
+<xi:include xpointer="xpointer(id('fig-post'))"/>
+「郵便受けを見てきて!」と指示すると、
+<ul>
+	<li><alert>「郵便受けを見てきて!」</alert><br/>→ (玄関へ) →<em>「見てきたよ!」</em></li>
+	<li mark="⇨"><alert>「何か入っていた?」</alert><em>「?」</em></li>
+	<li><alert>「郵便受けの中に何か<br/>
+		入っていないか確認してきて!」</alert><br/>
+		→ (玄関へ)<br/>
+		→ <em>「新聞が入っていたよ!」</em></li>
+	<li mark="⇨"><alert>「新聞は?」</alert><em>「?」</em></li>
+	<li><alert>「郵便受けに入っていた<br/>
+		新聞を取ってきて!」</alert><br/>
+		→ (玄関へ)<br/>
+		→<em>「取ってきたよ!」</em></li>
+</ul>
+</block>
+</frame>
+
+
+</s>
+<s h="制約">
+<frame title="\insertsubsection">
+<block title="デザイン原理3: 制約" class="alert">
+<alert>制約</alert>があるときは、制約があることを<alert>それとなく伝えて誘導</alert>することが必要
+<ul>
+	<li>警告・注意・指導されて従うのは、誰も快くない</li>
+	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>ようにする</li>
+</ul>
+出典:朝日新聞「電車内の足投げ出し、新型座席で解決 苦情なくなる」
+</block>
+<multicols num="2" xml:id="b-seat">
+<img src="slide-ui-seat1.jpg" scale=".25" title="一人分の幅が明確な座席"/>
+<img src="slide-ui-seat2.jpg" scale=".25" title="足が広がらない座席"/>
+</multicols>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="UDの例: 電車の座席" class="example">
+<ul>
+	<li>各自がまちまちな幅で座ると、7人がけ座席に6人しか座れない</li>
+	<li mark="⇨"><em>1人分の座席幅を示す</em>と、混雑時に座れる人が多くなる</li>
+	<li>足を広げる、前に足を出すなど、必要以上の空間を占める客がいる</li>
+	<li mark="⇨"><em>座る面を少し斜めに</em>すると、足を無駄に広げずに座る</li>
+</ul>
+</block>
+<xi:include xpointer="xpointer(id('b-seat'))"/>
+</frame>
+
+
+</s>
+</s>
+<s h="デザイン原理4: 一貫性">
+<s h="一貫性">
+<frame title="\insertsubsection">
+<block title="デザイン原理4: 一貫性" class="alert">
+混乱や間違った行動を引き起こさないよう、表記を<alert>統一</alert>して<alert>一貫性</alert>を出す
+<ul>
+	<li mark="※">そのモノ自体のデザインに統一感を出すだけでなく、<em>慣習や一般的な表記と一致させる</em>ことも重要</li>
+</ul>
+<multicols num="2">
+<img src="slide-ui-order.jpg" scale=".17" title="順序に一貫性がない靴箱"/>
+<img src="slide-ui-toilet.jpg" scale=".5" title="慣習と一致しない看板"/>
+</multicols>
+<size size="small">
+出典: 「楽しいBADUIの世界」<br/>
+<a href="http://badui.org/articles/funny_order.html"/><br/>
+<a href="http://badui.org/articles/maru_sankaku.html"/>
+</size>
+</block>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="UDの例: バスのラインカラー" class="example">
+<em>同じ道を通る系統ごとに、同じ色</em>をラインカラーとして使用<br/>
+
+<img src="slide-ui-linecolor.jpg" scale=".25" title="市バスのラインカラー"/>
+<size size="small">
+出典:京都市交通局「市バスの「分かりやすさ向上」のためのデザインマニュアルの策定と案内表示の一新について」<br/>
+<a href="http://www.city.kyoto.lg.jp/kotsu/page/0000161667.html"/>
+</size>
+</block>
+</frame>
+
+</s>
+</s>
+<s h="デザイン原理5: 反応">
+<s h="不安障害・強迫性障害">
+<frame title="\insertsubsection">
+<block class="example" title="不安障害">
+精神疾患の中で、<em>不安</em>を主症状とする疾患群
+<ul>
+	<li>心因だけでなく脳機能異常(身体的要因)があるといわれる</li>
+	<li>例: 恐怖症、パニック障害、対人恐怖、PTSD</li>
+</ul>
+</block>
+
+<block class="example" title="強迫性障害">
+ばかばかしさや過剰さを自覚してやめたいと思いつつも、<em>不安を緩和および打ち消す</em>ための行為に駆り立てられる
+<ul>
+	<li>不安が増大しやすい現代の社会情勢では、自身や大事なものを守ろうとする<em>過度の防衛反応</em>として、強迫的思考や行動が誘発されやすい</li>
+	<li>例: 潔癖症、確認強迫、被害恐怖</li>
+</ul>
+</block>
+</frame>
+
+</s>
+<s h="反応(feedback)">
+<frame title="\insertsubsection">
+<block title="デザイン原理5: 反応(feedback)" class="alert">
+利用者が行った行為に<alert>適切な反応(feedback)を返す</alert>ことが必要<br/>
+例: タッチパネルでのキーボード入力やボタンを押すなどの操作に対して、音を鳴らしたり振動したりする
+<ul>
+	<li>行為をしても反応が返ってこないと、人間は<em>不安</em>になる<br/>例: SNSの既読スルー</li>
+	<li>適切でない反応が返ってくると、人間は<em>誤った学習</em>をする<br/>例: 勉強しなくても成績がいいと、勉強しなくなる</li>
+</ul>
+</block>
+</frame>
+
+
+</s>
+</s>
+<s h="デザイン原理6: 可視性">
+<s h="可視性">
+<frame title="\insertsubsection">
+<block title="デザイン原理6: 可視性" class="alert">
+利用者が<alert>どんな状況にいるのか</alert>や<alert>何ができるのか</alert>など、<alert>相手が必要な情報を明確に示す</alert>
+<ul>
+	<li>例: スライド右下のページ数表示を見れば、全部で何ページあり、いま何ページ目なのかが分かる</li>
+	<li>いくら情報を示している「つもり」でも、<em>伝わらなければ無意味</em>!</li>
+</ul>
+</block>
+
+<multicols num="2">
+<img src="slide-ui-ios.jpg" scale=".25" title="iOSのon/offボタン"/>
+
+<img src="slide-ui-ios7.jpg" scale=".25"/>
+<img src="slide-ui-ios5.jpg" scale=".25"/>
+<img src="slide-ui-android.jpg" scale=".25"/>
+
+</multicols>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="UDの例: ピクトグラム" class="example">
+言語を使わずに機能を伝える<em>絵文字</em>や<em>図記号</em><br/>
+<ul>
+	<li>その国の<alert>言語が理解できなくても</alert>伝わる</li>
+	<li><alert>字の読めない人にも</alert>伝わる<br/>識字率の低い国では<em>字の読めない人でも</em>伝わる<br/>(特に地雷敷設地帯など、<alert>危険な場所</alert>を示すのに使われる)</li>
+</ul>
+</block>
+
+<multicols num="2">
+<img src="slide-ui-pictogram.png" scale=".5"/>
+<img src="slide-ui-minefield.jpg" scale=".25" title="カンボジアの地雷敷設地帯"/>
+
+</multicols>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="Wordの「あの」アイコン" class="example">
+赤枠で囲ったアイコンは、どういう機能を表すか分かりますか?
+</block>
+<img src="slide-ui-word.jpg" scale=".5" title="Wordの「あの」アイコン"/>
+</frame>
+
+<frame title="\insertsubsection">
+<block title="Wordの「あの」アイコン" class="example">
+<em>「上書き保存」</em>を表すアイコン(フロッピーディスク(FD)の絵)
+<ul>
+	<li>もうFDを見たこともない人が多いのに、相変わらず使われている</li>
+	<li>FDを知っている人にしか「保存」という機能が伝わらない</li>
+	<li>特にタッチ操作だと、どんな機能か分からないボタンは怖くて押せない!</li>
+</ul>
+</block>
+<img src="slide-ui-word1.jpg" scale=".5" title="「上書き保存」を表すアイコン"/>
+</frame>
+
+
+</s>
+</s>
+<s h="まとめ">
+<frame title="\insertsection">
+<block class="alert">
+<ul>
+	<li>デザインは感性や才能で決めるものではなく、<alert>論理的に</alert>決まる</li>
+	<li>デザイン能力は、それを使う<alert>相手(人間)の性質を学ぶ</alert>ことで向上する</li>
+	<li>伝える<alert>相手を意識して</alert>デザインすることが大事</li>
+</ul>
+</block>
+
+<block title="宿題: bad designの改善案作成" class="example">
+提出締切: 中間考査後最初の授業開始時(紙 or「Upフォルダ」へ)
+<ol>
+	<li>身の回りにある<em>問題のあるデザイン</em>を探す</li>
+	<li>そのデザインを撮影(イラストも可)</li>
+	<li>そのデザインの<em>何が問題なのか(どうして困るのか)</em>を書く</li>
+	<li>そうした<em>問題が起こる理由・原因</em>を書く<br/>(例えば、どのデザイン原理に反しているかなど)</li>
+	<li>「どうすれば良いデザインになるか」という<em>改善案</em>を書く</li>
+	<li mark="※">文章にまとめなくても、箇条書き程度でOK</li>
+	<li mark="※">参考サイト:<a href="http://badui.org">「楽しいBADUIの世界」</a></li>
+</ol>
+</block>
+</frame>
+</s>
+</article>
+</log>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../../texml2html.xsl"?>
-<log xmlns:xi="http://www.w3.org/2003/XInclude" title="What is &quot;Design&quot;?" by="" slide="1" embed="1">
+<log xmlns:xi="http://www.w3.org/2003/XInclude" title="What is &quot;Design&quot;?" by="" slide="1" embed="1" bib="slide-ui" biball="1">
 <article>
 <s h="What is Design?">
 <frame title="\insertsection">
@@ -386,100 +386,6 @@
 <a href="http://www.city.kyoto.lg.jp/kotsu/page/0000161667.html"/>
 </size>
 </block>
-</frame>
-
-</s>
-</s>
-<s h="デザイン原理5: 反応">
-<s h="不安障害・強迫性障害">
-<frame title="\insertsubsection">
-<block class="example" title="不安障害">
-精神疾患の中で、<em>不安</em>を主症状とする疾患群
-<ul>
-	<li>心因だけでなく脳機能異常(身体的要因)があるといわれる</li>
-	<li>例: 恐怖症、パニック障害、対人恐怖、PTSD</li>
-</ul>
-</block>
-
-<block class="example" title="強迫性障害">
-ばかばかしさや過剰さを自覚してやめたいと思いつつも、<em>不安を緩和および打ち消す</em>ための行為に駆り立てられる
-<ul>
-	<li>不安が増大しやすい現代の社会情勢では、自身や大事なものを守ろうとする<em>過度の防衛反応</em>として、強迫的思考や行動が誘発されやすい</li>
-	<li>例: 潔癖症、確認強迫、被害恐怖</li>
-</ul>
-</block>
-</frame>
-
-</s>
-<s h="反応(feedback)">
-<frame title="\insertsubsection">
-<block title="デザイン原理5: 反応(feedback)" class="alert">
-利用者が行った行為に<alert>適切な反応(feedback)を返す</alert>ことが必要<br/>
-例: タッチパネルでのキーボード入力やボタンを押すなどの操作に対して、音を鳴らしたり振動したりする
-<ul>
-	<li>行為をしても反応が返ってこないと、人間は<em>不安</em>になる<br/>例: SNSの既読スルー</li>
-	<li>適切でない反応が返ってくると、人間は<em>誤った学習</em>をする<br/>例: 勉強しなくても成績がいいと、勉強しなくなる</li>
-</ul>
-</block>
-</frame>
-
-
-</s>
-</s>
-<s h="デザイン原理6: 可視性">
-<s h="可視性">
-<frame title="\insertsubsection">
-<block title="デザイン原理6: 可視性" class="alert">
-利用者が<alert>どんな状況にいるのか</alert>や<alert>何ができるのか</alert>など、<alert>相手が必要な情報を明確に示す</alert>
-<ul>
-	<li>例: スライド右下のページ数表示を見れば、全部で何ページあり、いま何ページ目なのかが分かる</li>
-	<li>いくら情報を示している「つもり」でも、<em>伝わらなければ無意味</em>!</li>
-</ul>
-</block>
-
-<multicols num="2">
-<img src="slide-ui-ios.jpg" scale=".25" title="iOSのon/offボタン"/>
-
-<img src="slide-ui-ios7.jpg" scale=".25"/>
-<img src="slide-ui-ios5.jpg" scale=".25"/>
-<img src="slide-ui-android.jpg" scale=".25"/>
-
-</multicols>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="UDの例: ピクトグラム" class="example">
-言語を使わずに機能を伝える<em>絵文字</em>や<em>図記号</em><br/>
-<ul>
-	<li>その国の<alert>言語が理解できなくても</alert>伝わる</li>
-	<li><alert>字の読めない人にも</alert>伝わる<br/>識字率の低い国では<em>字の読めない人でも</em>伝わる<br/>(特に地雷敷設地帯など、<alert>危険な場所</alert>を示すのに使われる)</li>
-</ul>
-</block>
-
-<multicols num="2">
-<img src="slide-ui-pictogram.png" scale=".5"/>
-<img src="slide-ui-minefield.jpg" scale=".25" title="カンボジアの地雷敷設地帯"/>
-
-</multicols>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="Wordの「あの」アイコン" class="example">
-赤枠で囲ったアイコンは、どういう機能を表すか分かりますか?
-</block>
-<img src="slide-ui-word.jpg" scale=".5" title="Wordの「あの」アイコン"/>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="Wordの「あの」アイコン" class="example">
-<em>「上書き保存」</em>を表すアイコン(フロッピーディスク(FD)の絵)
-<ul>
-	<li>もうFDを見たこともない人が多いのに、相変わらず使われている</li>
-	<li>FDを知っている人にしか「保存」という機能が伝わらない</li>
-	<li>特にタッチ操作だと、どんな機能か分からないボタンは怖くて押せない!</li>
-</ul>
-</block>
-<img src="slide-ui-word1.jpg" scale=".5" title="「上書き保存」を表すアイコン"/>
 </frame>
 
 

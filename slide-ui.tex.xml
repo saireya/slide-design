@@ -75,6 +75,12 @@
 </block>
 </frame>
 
+<frame title="\insertsection">
+<block class="alert" title="User Interface(UI)">
+	<em>モノとその利用者の境界</em>にあるもの
+</block>
+<img src="interface.svg" scale=".25"/>
+</frame>
 
 </s>
 <s h="Affordance">

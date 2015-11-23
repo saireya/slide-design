@@ -221,70 +221,6 @@
 </s>
 </s>
 <s h="制約">
-<s h="自閉スペクトラム障害(ASD)">
-<frame title="\insertsubsection">
-<block class="example">
-他人との<em>社会的関係の形成の困難さ</em>、<em>言葉の発達の遅れ</em>、興味や関心が狭く<em>特定のものにこだわる</em>ことを特徴とする行動の障害
-<ul>
-	<li mark="※">以前「自閉症」「アスペルガー症候群」と呼ばれていたもの</li>
-</ul>
-</block>
-
-<block class="example" title="ASDの人の特徴">
-<ul>
-	<li>言葉の<em>裏の意味・皮肉</em>を理解しにくい</li>
-	<li><em>曖昧な(不明瞭な・一貫性のない)指示</em>を理解しにくい</li>
-	<li><em>暗黙のルール</em>(いわゆる「<em>常識</em>」)が分かりにくい</li>
-	<li>人の言うことを<em>鵜呑み</em>にしてしまう・<em>騙され</em>やすい</li>
-	<li><em>複数の答え</em>がある質問に答えにくい</li>
-</ul>
-<size size="small">出典:<a href="http://asperger.nerim.info">「アスペな大人」</a></size>
-</block>
-</frame>
-
-<frame title="\insertsubsection">
-<block class="example" title="「暗黙のルール」の例">
-<img src="slide-ui-post.svg" scale=".4" wrapwidth="5cm" n="fig:post" title="フローチャート表現" xml:id="fig-post"/>
-「郵便受けを見てきて!」という指示には、<br/>
-「
-<ol>
-	<li>郵便受けのある<em>玄関まで行く</em></li>
-	<li>郵便受けの<em>フタを開ける</em></li>
-	<li>郵便受けの中に<br/>
-		<em>郵便物が入っているか確認</em>する</li>
-	<li>もし<em>郵便物が入っていたら</em>、<br/>
-		<em>それを取り出す</em></li>
-	<li>郵便受けの<em>フタを閉める</em></li>
-	<li>居間へ戻ってくる</li>
-</ol>
-…ということをしてほしい」<br/>
-という<alert>極めて複雑</alert>な意味がある
-</block>
-</frame>
-
-<frame title="\insertsubsection">
-<block class="example" title="典型的なASDの人とのコミュニケーション">
-<xi:include xpointer="xpointer(id('fig-post'))"/>
-「郵便受けを見てきて!」と指示すると、
-<ul>
-	<li><alert>「郵便受けを見てきて!」</alert><br/>→ (玄関へ) →<em>「見てきたよ!」</em></li>
-	<li mark="⇨"><alert>「何か入っていた?」</alert><em>「?」</em></li>
-	<li><alert>「郵便受けの中に何か<br/>
-		入っていないか確認してきて!」</alert><br/>
-		→ (玄関へ)<br/>
-		→ <em>「新聞が入っていたよ!」</em></li>
-	<li mark="⇨"><alert>「新聞は?」</alert><em>「?」</em></li>
-	<li><alert>「郵便受けに入っていた<br/>
-		新聞を取ってきて!」</alert><br/>
-		→ (玄関へ)<br/>
-		→<em>「取ってきたよ!」</em></li>
-</ul>
-</block>
-</frame>
-
-
-</s>
-<s h="制約">
 <frame title="\insertsubsection">
 <block title="制約" class="alert">
 <alert>制約</alert>があるときは、制約があることを<alert>それとなく伝えて誘導</alert>することが必要
@@ -311,10 +247,8 @@
 </block>
 <xi:include xpointer="xpointer(id('b-seat'))"/>
 </frame>
-
-
 </s>
-</s>
+
 <s h="一貫性">
 <s h="一貫性">
 <frame title="\insertsubsection">
@@ -467,6 +401,7 @@
 </ol>
 </block>
 </frame>
+</s>
 </s>
 </article>
 </log>

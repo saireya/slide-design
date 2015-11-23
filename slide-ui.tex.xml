@@ -119,58 +119,52 @@
 </s>
 <s h="Affordance">
 <frame title="\insertsubsection">
-<block class="alert" title="Affordance">
-<ul xml:id="ul-affordance">
-	<li>人間とモノとの間の関係性のことを<alert>affordance</alert>という</li>
+<block class="alert" title="Affordance" xml:id="affordance">
+<ul>
+	<li><em>人間とモノとの間の関係性</em>のこと</li>
 	<li>例.「紙」に「字を書ける」、「扉」に「開ける」など</li>
 	<li mark="⇨">affordanceを<em>上手く知覚</em>できるような<alert>手がかり(ヒント)</alert>が必要</li>
 </ul>
+</block>
+<img src="interface-affordance.svg" scale=".25"/>
+</frame>
+
+<frame title="\insertsubsection">
+<xi:include xpointer="xpointer(id('affordance'))"/>
+<img src="interface-signifier.svg" scale=".25"/>
+</frame>
+
+<frame title="\insertsubsection">
+<xi:include xpointer="xpointer(id('affordance'))"/>
 <img src="slide-ui-door1.jpg" scale=".15" title="ドアの取っ手(affordanceを知覚するヒント)"/>
-<size size="small">
+<size size="small" xml:id="affordance-cite">
 出典: <a href="http://badui.org/articles/pull_or_push.html"/>
 </size>
-</block>
 </frame>
 
 <frame title="\insertsubsection">
-<block class="alert" title="Affordance">
-<xi:include xpointer="xpointer(id('ul-affordance'))"/>
+<xi:include xpointer="xpointer(id('affordance'))"/>
 <img src="slide-ui-door2.jpg" scale=".15" title="引いても開かない!"/>
-<size size="small">
-出典: <a href="http://badui.org/articles/pull_or_push.html"/>
-</size>
-</block>
+<xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
 
 <frame title="\insertsubsection">
-<block class="example" title="悪い手がかりの例">
+<block class="example" title="悪い手がかりの例" xml:id="affordance-bad">
 <ul>
-	<li>「取っ手」(という記号)は「これは<em>引いて</em>開ける扉」だと認識させる</li>
+	<li>「取っ手」は「これは<em>引いて</em>開ける扉」だと認識させる</li>
 	<li>実際は「<em>押して</em>開ける扉」なので、「引いたのに開かない!」となる</li>
 	<li mark="⇨"><alert>誤った手がかりは利用者を混乱</alert>させる</li>
 </ul>
-<img src="slide-ui-door3.jpg" scale=".15" title="押すと開く!(誤ったヒントの例)"/>
-<size size="small">
-出典: <a href="http://badui.org/articles/pull_or_push.html"/>
-</size>
 </block>
+<img src="slide-ui-door3.jpg" scale=".15" title="押すと開く!(誤ったヒントの例)"/>
+<xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
 
 <frame title="\insertsubsection">
-<block title="UDの例: 東大ノート" class="example">
-「白紙の紙に書きにくい」のは、LDという特性を持った人だけ?
-<ul>
-	<li mark="⇨">プレッシャー、文が斜めになるetc.</li>
-	<li mark="⇨">誰にでも書きやすい「ドット入り罫線ノート(通称:東大ノート)」<br/><a href="http://www.kokuyo-st.co.jp/stationery/dotkei"/></li>
-</ul>
-</block>
-<multicols num="2">
-<img src="slide-ui-dotnote2.jpg" scale=".4" title="ドット入り罫線ノート"/>
-<img src="slide-ui-dotnote.jpg" scale=".4" title="ドット入り罫線ノートの利点"/>
-</multicols>
+<xi:include xpointer="xpointer(id('affordance-bad'))"/>
+<img src="interface-mismatch.svg" scale=".25"/>
+<xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
-
-
 </s>
 </s>
 <s h="対応付け">

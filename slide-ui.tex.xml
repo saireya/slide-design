@@ -82,47 +82,6 @@
 <img src="interface.svg" scale=".25"/>
 </frame>
 
-</s>
-<s h="Affordance">
-<s h="学習障害(LD)">
-<frame title="\insertsubsection">
-<block class="example">
-全般的な知的発達に遅れはないが、<em>聞く、話す、読む、書く、計算する、推論する</em>能力のうち特定のものの<em>習得と使用に著しい困難</em>を示す
-<img src="slide-ui-ld1.jpg" title="かけ算の筆算"/>
-<size size="small">
-出典:「掛け算の筆算 スペース足りない - 小学生の家庭学習 これからどうする?」
-<a href="http://smile20aw.blog.fc2.com/blog-entry-4.html"/>
-</size>
-</block>
-</frame>
-
-<frame title="\insertsubsection">
-<block class="example">
-<em>書く</em>ことのみが困難なのに、他の勉強にもついていけなくなってくる<br/>(<em>計算する</em>能力は問題ない!)
-<img src="slide-ui-ld2.jpg" title="方眼紙を使うと解ける!"/>
-<size size="small">
-出典:「掛け算の筆算 スペース足りない - 小学生の家庭学習 これからどうする?」
-<a href="http://smile20aw.blog.fc2.com/blog-entry-4.html"/>
-</size>
-</block>
-</frame>
-
-<frame title="\insertsubsection">
-<block class="example">
-問題: 白紙の紙だと、<em>どこに</em>、<em>どんな大きさで</em>字を書けばいいか分からない(ので、思いつくまま書いた結果、場所が足りなくなり、間違えてしまう)
-<ul>
-	<li mark="⇨">マス目があり、<alert>どこに書くかが明確に</alert>なっていると書ける!</li>
-	<li mark="⇨"><alert>良いデザイン</alert>をすれば、問題が解けるようになる!</li>
-</ul>
-</block>
-<multicols num="2">
-<img src="slide-ui-ld1.jpg" scale=".9" title="白紙に書いた場合"/>
-<img src="slide-ui-ld2.jpg" scale=".9" title="方眼紙に書いた場合"/>
-</multicols>
-</frame>
-
-
-</s>
 <s h="Affordance">
 <frame title="\insertsubsection">
 <block class="alert" title="Affordance" xml:id="affordance">
@@ -172,7 +131,7 @@
 <xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
 </s>
-</s>
+
 <s h="対応付け">
 <s h="色覚異常">
 <frame title="\insertsubsection">

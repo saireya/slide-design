@@ -390,7 +390,7 @@
 
 </s>
 </s>
-<s h="デザイン原理5: 反応">
+<s h="反応">
 <s h="不安障害・強迫性障害">
 <frame title="\insertsubsection">
 <block class="example" title="不安障害">
@@ -413,7 +413,7 @@
 </s>
 <s h="反応(feedback)">
 <frame title="\insertsubsection">
-<block title="デザイン原理5: 反応(feedback)" class="alert">
+<block title="反応(feedback)" class="alert">
 利用者が行った行為に<alert>適切な反応(feedback)を返す</alert>ことが必要<br/>
 例: タッチパネルでのキーボード入力やボタンを押すなどの操作に対して、音を鳴らしたり振動したりする
 <ul>
@@ -426,10 +426,10 @@
 
 </s>
 </s>
-<s h="デザイン原理6: 可視性">
+<s h="可視性">
 <s h="可視性">
 <frame title="\insertsubsection">
-<block title="デザイン原理6: 可視性" class="alert">
+<block title="可視性" class="alert">
 利用者が<alert>どんな状況にいるのか</alert>や<alert>何ができるのか</alert>など、<alert>相手が必要な情報を明確に示す</alert>
 <ul>
 	<li>例: スライド右下のページ数表示を見れば、全部で何ページあり、いま何ページ目なのかが分かる</li>

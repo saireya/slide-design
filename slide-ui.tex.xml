@@ -133,6 +133,7 @@
 </s>
 
 <s h="対応付け">
+<!-- TODO: 色については主観性に移動 -->
 <s h="色覚異常">
 <frame title="\insertsubsection">
 <block class="example">

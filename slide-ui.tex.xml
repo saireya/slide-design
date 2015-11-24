@@ -97,7 +97,7 @@
 <img src="interface-affordance.svg" scale=".25"/>
 </frame>
 
-<s h="例: ドアの取っ手">
+<s h="対応付け">
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('affordance'))"/>
 <img src="interface-signifier.svg" scale=".25"/>
@@ -118,11 +118,11 @@
 </frame>
 
 <frame title="\insertsubsection">
-<block class="example" title="悪い手がかりの例" xml:id="affordance-bad">
+<block class="example" title="不適切な手がかりの例" xml:id="affordance-bad">
 <ul>
 	<li>「取っ手」は「これは<em>引いて</em>開ける扉」だと認識させる</li>
-	<li>実際は「<em>押して</em>開ける扉」なので、「引いたのに開かない!」となる</li>
-	<li mark="⇨"><alert>誤った手がかりは利用者を混乱</alert>させる</li>
+	<li>実際は「<em>押して</em>開ける扉」⇒「引いたのに開かない!」</li>
+	<li mark="⇨"><alert>不適切な手がかりは利用者を混乱</alert>させる</li>
 </ul>
 </block>
 <img src="slide-ui-door3.jpg" scale=".15" title="押すと開く!(誤ったヒントの例)"/>
@@ -136,7 +136,41 @@
 </frame>
 </s>
 
-<s h="例: 電車の座席">
+<s h="一貫性と慣習">
+<frame title="\insertsubsection">
+<block title="一貫性" xml:id="b-consistency">
+混乱や間違った行動を引き起こさないよう、表記を<alert>統一</alert>して<alert>一貫性</alert>を出す
+<ul>
+	<li mark="※"><em>慣習</em>(一般的な表記)と一致させることも重要</li>
+</ul>
+</block>
+<multicols num="2">
+<img src="slide-ui-order.jpg" scale=".17" title="順序に一貫性がない靴箱"/>
+<img src="slide-ui-toilet.jpg" scale=".5" title="慣習と一致しない看板"/>
+</multicols>
+<size size="small">
+出典: 「楽しいBADUIの世界」<br/>
+<a href="http://badui.org/articles/funny_order.html"/><br/>
+<a href="http://badui.org/articles/maru_sankaku.html"/>
+</size>
+</frame>
+
+<frame title="\insertsubsection">
+<xi:include xpointer="xpointer(id('b-consistency'))"/>
+<img src="interface-consistency.svg" scale=".25"/>
+</frame>
+
+
+<frame title="\insertsubsection">
+<img src="slide-ui-linecolor.jpg" scale=".3" title="市バスのラインカラー"/>
+<size size="small">
+出典:京都市交通局「市バスの「分かりやすさ向上」のためのデザインマニュアルの策定と案内表示の一新について」<br/>
+<a href="http://www.city.kyoto.lg.jp/kotsu/page/0000161667.html"/>
+</size>
+</frame>
+</s>
+
+<s h="制約と誘導">
 <frame title="\insertsubsection">
 <block title="誘導" xml:id="b-rule">
 警告・注意・指導されてルールを守るのは快くない
@@ -248,40 +282,6 @@
 </s>
 </s>
 
-<s h="一貫性">
-<s h="一貫性">
-<frame title="\insertsubsection">
-<block title="一貫性" class="alert">
-混乱や間違った行動を引き起こさないよう、表記を<alert>統一</alert>して<alert>一貫性</alert>を出す
-<ul>
-	<li mark="※">そのモノ自体のデザインに統一感を出すだけでなく、<em>慣習や一般的な表記と一致させる</em>ことも重要</li>
-</ul>
-<multicols num="2">
-<img src="slide-ui-order.jpg" scale=".17" title="順序に一貫性がない靴箱"/>
-<img src="slide-ui-toilet.jpg" scale=".5" title="慣習と一致しない看板"/>
-</multicols>
-<size size="small">
-出典: 「楽しいBADUIの世界」<br/>
-<a href="http://badui.org/articles/funny_order.html"/><br/>
-<a href="http://badui.org/articles/maru_sankaku.html"/>
-</size>
-</block>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="UDの例: バスのラインカラー" class="example">
-<em>同じ道を通る系統ごとに、同じ色</em>をラインカラーとして使用<br/>
-
-<img src="slide-ui-linecolor.jpg" scale=".25" title="市バスのラインカラー"/>
-<size size="small">
-出典:京都市交通局「市バスの「分かりやすさ向上」のためのデザインマニュアルの策定と案内表示の一新について」<br/>
-<a href="http://www.city.kyoto.lg.jp/kotsu/page/0000161667.html"/>
-</size>
-</block>
-</frame>
-
-</s>
-</s>
 <s h="反応">
 <s h="不安障害・強迫性障害">
 <frame title="\insertsubsection">

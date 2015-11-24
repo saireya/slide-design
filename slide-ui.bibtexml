@@ -108,10 +108,22 @@
 	<url>http://asperger.nerim.info</url>
 </misc></entry>
 
-<entry id="asahi"><misc>
+<entry id="seat-gfit"><misc>
+	<author>Good Design Award</author>
+	<title>鉄道車両用シートG-Fit</title>
+	<url>https://www.g-mark.org/award/describe/41465</url>
+</misc></entry>
+
+<entry id="seat-gfit2"><misc>
 	<author>朝日新聞</author>
 	<title>電車内の足投げ出し、新型座席で解決 苦情なくなる</title>
 	<url>http://digital.asahi.com/articles/ASGBQ5DGSGBQULFA01Z.html</url>
+</misc></entry>
+
+<entry id="seat-gfit-design"><misc>
+	<author>日本経済新聞</author>
+	<title>原因は席の形状? 足の投げ出し、設計でマナー改善</title>
+	<url>http://www.nikkei.com/article/DGXMZO84489940X10C15A3000000</url>
 </misc></entry>
 
 <entry id="kyoto-bus"><misc>

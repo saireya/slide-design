@@ -97,6 +97,7 @@
 <img src="interface-affordance.svg" scale=".25"/>
 </frame>
 
+<s h="例: ドアの取っ手">
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('affordance'))"/>
 <img src="interface-signifier.svg" scale=".25"/>
@@ -135,6 +136,28 @@
 </frame>
 </s>
 
+<s h="例: 電車の座席">
+<frame title="\insertsubsection">
+<block title="誘導" xml:id="b-rule">
+警告・注意・指導されてルールを守るのは快くない
+<ul>
+	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>ように誘導する</li>
+</ul>
+</block>
+<img src="seat-gfit.jpg" scale=".25" title="足を投げ出さない座席(三菱重工業G-Fit)"/>
+</frame>
+
+<frame title="\insertsubsection">
+<xi:include xpointer="xpointer(id('b-rule'))"/>
+<img src="seat-gfit2.jpg" scale=".3" title="ゆりかもめでの採用例(出典:朝日新聞)"/>
+</frame>
+
+<frame title="\insertsubsection">
+<img src="seat-gfit-design.png" scale=".75" title="G-Fitのデザイン(出典:日経新聞)"/>
+</frame>
+</s>
+</s>
+
 <s h="対応付け">
 <!-- TODO: 色については主観性に移動 -->
 <s h="色覚異常">
@@ -166,8 +189,8 @@
 </size>
 </block>
 </frame>
-
 </s>
+
 <s h="対応付け">
 <frame title="\insertsubsection">
 <block title="対応付け" class="alert">
@@ -223,34 +246,6 @@
 
 
 </s>
-</s>
-<s h="制約">
-<frame title="\insertsubsection">
-<block title="制約" class="alert">
-<alert>制約</alert>があるときは、制約があることを<alert>それとなく伝えて誘導</alert>することが必要
-<ul>
-	<li>警告・注意・指導されて従うのは、誰も快くない</li>
-	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>ようにする</li>
-</ul>
-出典:朝日新聞「電車内の足投げ出し、新型座席で解決 苦情なくなる」
-</block>
-<multicols num="2" xml:id="b-seat">
-<img src="slide-ui-seat1.jpg" scale=".25" title="一人分の幅が明確な座席"/>
-<img src="slide-ui-seat2.jpg" scale=".25" title="足が広がらない座席"/>
-</multicols>
-</frame>
-
-<frame title="\insertsubsection">
-<block title="UDの例: 電車の座席" class="example">
-<ul>
-	<li>各自がまちまちな幅で座ると、7人がけ座席に6人しか座れない</li>
-	<li mark="⇨"><em>1人分の座席幅を示す</em>と、混雑時に座れる人が多くなる</li>
-	<li>足を広げる、前に足を出すなど、必要以上の空間を占める客がいる</li>
-	<li mark="⇨"><em>座る面を少し斜めに</em>すると、足を無駄に広げずに座る</li>
-</ul>
-</block>
-<xi:include xpointer="xpointer(id('b-seat'))"/>
-</frame>
 </s>
 
 <s h="一貫性">

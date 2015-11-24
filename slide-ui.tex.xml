@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="../../texml2html.xsl"?>
-<log xmlns:xi="http://www.w3.org/2003/XInclude" title="What is &quot;Design&quot;?" by="" slide="1" embed="1" bib="slide-ui" biball="1">
+<log xmlns:xi="http://www.w3.org/2003/XInclude" title="Design and Interface" by="" slide="1" embed="1" bib="slide-ui" biball="1">
 <article>
-<s h="What is Design?">
+<s h="Design">
 <frame title="\insertsection">
-<!-- TODO: 画像に差し替え -->
 <block>
-デザインは<em>誰もが</em>、<em>いつも</em>行っていること!
+<alert>デザイン</alert> = <em>表現の選択</em>
+<!-- TODO: 画像に差し替え -->
 <ul>
 	<li>スライドのデザイン、プレゼンテーションのデザイン</li>
 	<li>建築物のデザイン、都市のデザイン</li>
@@ -15,6 +15,7 @@
 	<li>...</li>
 </ul>
 </block>
+<img src="model-media.svg" scale=".3"/>
 </frame>
 
 <frame title="\insertsection">
@@ -46,7 +47,7 @@
 </multicols>
 </frame>
 
-<frame title="\insertsection">
+<!--<frame title="\insertsection">
 <block title="How to make my design better?">
 学ぶことで、<em>誰でも良いデザインを作れる</em>ようになる!
 <ul>
@@ -57,7 +58,7 @@
 </ul>
 </block>
 <img src="slide-ui-design.svg" scale=".5" title="&quot;What&quot; to learn?"/>
-</frame>
+</frame>-->
 
 <frame title="\insertsection">
 <block class="alert">
@@ -74,7 +75,9 @@
 ある特性をもつ人だけでなく、<alert>すべての人にとって</alert>使いやすいデザイン
 </block>
 </frame>
+</s>
 
+<s h="Interface">
 <frame title="\insertsection">
 <block class="alert" title="User Interface(UI)">
 	<em>モノとその利用者の境界</em>にあるもの

@@ -97,7 +97,6 @@
 <img src="interface-affordance.svg" scale=".25"/>
 </frame>
 
-<s h="対応付け">
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('affordance'))"/>
 <img src="interface-signifier.svg" scale=".25"/>
@@ -107,7 +106,8 @@
 <xi:include xpointer="xpointer(id('affordance'))"/>
 <img src="slide-ui-door1.jpg" scale=".15" title="ドアの取っ手(affordanceを知覚する手がかり)"/>
 <size size="small" xml:id="affordance-cite">
-出典: <a href="http://badui.org/articles/pull_or_push.html"/>
+出典: 「楽しいBADUIの世界」<br/>
+<a href="http://badui.org/articles/pull_or_push.html"/>
 </size>
 </frame>
 
@@ -134,28 +134,30 @@
 <img src="interface-mismatch.svg" scale=".25"/>
 <xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
+</s>
 
+<s h="ピクトグラム">
 <frame title="\insertsubsection">
-<block title="ピクトグラム" xml:id="b-pictogram">
+<block xml:id="b-pictogram">
 <em>絵文字</em>で機能を伝える
 <ul>
-	<li>その国の<alert>言語が理解できなくても</alert>伝わる</li>
-	<li><alert>字の読めない人にも</alert>伝わる<br/>(特に地雷敷設地帯など、<alert>危険な場所</alert>を示すのに使われる)</li>
+	<li mark="⇨"><alert>言語が理解できなくても</alert>、<alert>字が読めなくても</alert>伝わる</li>
+	<li mark="※">特に<alert>危険</alert>を示すのに使われる</li>
 </ul>
 </block>
-<img src="slide-ui-pictogram.png" scale=".5" title="ピクトグラム(出典:JAGAT)"/>
+<img src="slide-ui-pictogram.png" scale=".75" title="ピクトグラム(出典:JAGAT)"/>
 </frame>
 
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('b-pictogram'))"/>
-<img src="slide-ui-minefield.jpg" scale=".3" title="地雷敷設地帯(出典:NEVGIV)"/>
+<img src="slide-ui-minefield.jpg" scale=".5" title="地雷敷設地帯(出典:NEVGIV)"/>
 </frame>
 </s>
 
 
-<s h="一貫性と慣習">
+<s h="一貫性">
 <frame title="\insertsubsection">
-<block title="一貫性" xml:id="b-consistency">
+<block xml:id="b-consistency">
 混乱や間違った行動を引き起こさないよう、表記を<alert>統一</alert>して<alert>一貫性</alert>を出す
 <ul>
 	<li mark="※"><em>慣習</em>(一般的な表記)と一致させることも重要</li>
@@ -177,7 +179,6 @@
 <img src="interface-consistency.svg" scale=".25"/>
 </frame>
 
-
 <frame title="\insertsubsection">
 <img src="slide-ui-linecolor.jpg" scale=".3" title="市バスのラインカラー"/>
 <size size="small">
@@ -187,9 +188,10 @@
 </frame>
 </s>
 
-<s h="制約と誘導">
+
+<s h="誘導">
 <frame title="\insertsubsection">
-<block title="誘導" xml:id="b-rule">
+<block xml:id="b-rule">
 警告・注意・指導されてルールを守るのは快くない
 <ul>
 	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>ように誘導する</li>
@@ -206,7 +208,6 @@
 <frame title="\insertsubsection">
 <img src="seat-gfit-design.png" scale=".75" title="G-Fitのデザイン(出典:日経新聞)"/>
 </frame>
-</s>
 </s>
 
 <s h="対応付け">

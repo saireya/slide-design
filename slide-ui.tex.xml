@@ -155,9 +155,14 @@
 </frame>
 
 <frame title="\insertsubsection">
-<multicols num="2">
-<img src="slide-ui-toilet2.jpg" scale=".25" title="どちらに入ればいい?(出典:Twitter)"/>
-<img src="interface-unnoticeable.svg" scale=".25"/>
+<multicols>
+<column width="5cm">
+<img src="slide-ui-toilet2.jpg" scale=".25" title="どちらに入る? (出典:Twitter)"/>
+</column>
+<column width="7cm">
+<img src="interface-unnoticeable.svg" scale=".2"/>
+</column>
+</multicols>
 </frame>
 </s>
 

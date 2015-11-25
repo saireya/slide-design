@@ -91,7 +91,7 @@
 <ul>
 	<li><em>人間とモノとの間の関係性</em>のこと</li>
 	<li>例.「紙」に「字を書ける」、「扉」に「開ける」など</li>
-	<li mark="⇨">affordanceを<em>上手く知覚</em>できるような<alert>手がかり(ヒント)</alert>が必要</li>
+	<li mark="⇨">affordanceを<em>自然に知覚</em>できる<alert>インタフェース(手がかり)</alert>が必要</li>
 </ul>
 </block>
 <img src="interface-affordance.svg" scale=".25"/>
@@ -105,7 +105,7 @@
 
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('affordance'))"/>
-<img src="slide-ui-door1.jpg" scale=".15" title="ドアの取っ手(affordanceを知覚するヒント)"/>
+<img src="slide-ui-door1.jpg" scale=".15" title="ドアの取っ手(affordanceを知覚する手がかり)"/>
 <size size="small" xml:id="affordance-cite">
 出典: <a href="http://badui.org/articles/pull_or_push.html"/>
 </size>
@@ -118,14 +118,14 @@
 </frame>
 
 <frame title="\insertsubsection">
-<block class="example" title="不適切な手がかりの例" xml:id="affordance-bad">
+<block title="不適切な手がかりの例" xml:id="affordance-bad">
 <ul>
 	<li>「取っ手」は「これは<em>引いて</em>開ける扉」だと認識させる</li>
 	<li>実際は「<em>押して</em>開ける扉」⇒「引いたのに開かない!」</li>
 	<li mark="⇨"><alert>不適切な手がかりは利用者を混乱</alert>させる</li>
 </ul>
 </block>
-<img src="slide-ui-door3.jpg" scale=".15" title="押すと開く!(誤ったヒントの例)"/>
+<img src="slide-ui-door3.jpg" scale=".15" title="押すと開く!(誤った手がかり)"/>
 <xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
 
@@ -134,7 +134,24 @@
 <img src="interface-mismatch.svg" scale=".25"/>
 <xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
+
+<frame title="\insertsubsection">
+<block title="ピクトグラム" xml:id="b-pictogram">
+<em>絵文字</em>で機能を伝える
+<ul>
+	<li>その国の<alert>言語が理解できなくても</alert>伝わる</li>
+	<li><alert>字の読めない人にも</alert>伝わる<br/>(特に地雷敷設地帯など、<alert>危険な場所</alert>を示すのに使われる)</li>
+</ul>
+</block>
+<img src="slide-ui-pictogram.png" scale=".5" title="ピクトグラム(出典:JAGAT)"/>
+</frame>
+
+<frame title="\insertsubsection">
+<xi:include xpointer="xpointer(id('b-pictogram'))"/>
+<img src="slide-ui-minefield.jpg" scale=".3" title="地雷敷設地帯(出典:NEVGIV)"/>
+</frame>
 </s>
+
 
 <s h="一貫性と慣習">
 <frame title="\insertsubsection">
@@ -339,21 +356,6 @@
 </multicols>
 </frame>
 
-<frame title="\insertsubsection">
-<block title="UDの例: ピクトグラム" class="example">
-言語を使わずに機能を伝える<em>絵文字</em>や<em>図記号</em><br/>
-<ul>
-	<li>その国の<alert>言語が理解できなくても</alert>伝わる</li>
-	<li><alert>字の読めない人にも</alert>伝わる<br/>識字率の低い国では<em>字の読めない人でも</em>伝わる<br/>(特に地雷敷設地帯など、<alert>危険な場所</alert>を示すのに使われる)</li>
-</ul>
-</block>
-
-<multicols num="2">
-<img src="slide-ui-pictogram.png" scale=".5"/>
-<img src="slide-ui-minefield.jpg" scale=".25" title="カンボジアの地雷敷設地帯"/>
-
-</multicols>
-</frame>
 
 <frame title="\insertsubsection">
 <block title="Wordの「あの」アイコン" class="example">

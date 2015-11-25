@@ -103,11 +103,6 @@
 	<url>http://www.pref.fukushima.lg.jp/sec/16005c/ud-cudguide04.html</url>
 </misc></entry>
 
-<entry id="asd"><misc>
-	<title>アスペな大人</title>
-	<url>http://asperger.nerim.info</url>
-</misc></entry>
-
 <entry id="seat-gfit"><misc>
 	<author>Good Design Award</author>
 	<title>鉄道車両用シートG-Fit</title>
@@ -130,6 +125,18 @@
 	<author>京都市交通局</author>
 	<title>市バスの「分かりやすさ向上」のためのデザインマニュアルの策定と案内表示の一新について</title>
 	<url>http://www.city.kyoto.lg.jp/kotsu/page/0000161667.html</url>
+</misc></entry>
+
+<entry id="jagat"><misc>
+	<author>日本印刷技術協会</author>
+	<title>絵で分かる！印刷物～ピクトグラム活用 UD印刷事例その4</title>
+	<url>http://www.jagat.or.jp/past_archives/story/10411.html</url>
+</misc></entry>
+
+<entry id="nevgiv"><misc>
+	<author>NEVGIV</author>
+	<title>海外ノマドして初めてわかった、カンボジアの意外な風景</title>
+	<url>http://yuuma7.com</url>
 </misc></entry>
 
 </file>

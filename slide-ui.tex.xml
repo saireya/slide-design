@@ -136,6 +136,7 @@
 </frame>
 </s>
 
+
 <s h="ピクトグラム">
 <frame title="\insertsubsection">
 <block xml:id="b-pictogram">
@@ -151,6 +152,28 @@
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('b-pictogram'))"/>
 <img src="slide-ui-minefield.jpg" scale=".5" title="地雷敷設地帯(出典:NEVGIV)"/>
+</frame>
+</s>
+
+
+<s h="誘導">
+<frame title="\insertsubsection">
+<block xml:id="b-rule">
+警告・注意・指導されてルールを守るのは快くない
+<ul>
+	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>ように誘導する</li>
+</ul>
+</block>
+<img src="seat-gfit.jpg" scale=".25" title="足を投げ出さない座席(三菱重工業G-Fit)"/>
+</frame>
+
+<frame title="\insertsubsection">
+<xi:include xpointer="xpointer(id('b-rule'))"/>
+<img src="seat-gfit2.jpg" scale=".3" title="ゆりかもめでの採用例(出典:朝日新聞)"/>
+</frame>
+
+<frame title="\insertsubsection">
+<img src="seat-gfit-design.png" scale=".75" title="G-Fitのデザイン(出典:日経新聞)"/>
 </frame>
 </s>
 
@@ -188,27 +211,6 @@
 </frame>
 </s>
 
-
-<s h="誘導">
-<frame title="\insertsubsection">
-<block xml:id="b-rule">
-警告・注意・指導されてルールを守るのは快くない
-<ul>
-	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>ように誘導する</li>
-</ul>
-</block>
-<img src="seat-gfit.jpg" scale=".25" title="足を投げ出さない座席(三菱重工業G-Fit)"/>
-</frame>
-
-<frame title="\insertsubsection">
-<xi:include xpointer="xpointer(id('b-rule'))"/>
-<img src="seat-gfit2.jpg" scale=".3" title="ゆりかもめでの採用例(出典:朝日新聞)"/>
-</frame>
-
-<frame title="\insertsubsection">
-<img src="seat-gfit-design.png" scale=".75" title="G-Fitのデザイン(出典:日経新聞)"/>
-</frame>
-</s>
 
 <s h="対応付け">
 <!-- TODO: 色については主観性に移動 -->
@@ -391,12 +393,10 @@
 </block>
 
 <block title="宿題: bad designの改善案作成" class="example">
-提出締切: 中間考査後最初の授業開始時(紙 or「Upフォルダ」へ)
 <ol>
 	<li>身の回りにある<em>問題のあるデザイン</em>を探す</li>
 	<li>そのデザインを撮影(イラストも可)</li>
-	<li>そのデザインの<em>何が問題なのか(どうして困るのか)</em>を書く</li>
-	<li>そうした<em>問題が起こる理由・原因</em>を書く</li>
+	<li>そのデザインの<em>何が問題なのか</em>と<em>問題が起こる理由・原因</em>を書く</li>
 	<li>「どうすれば良いデザインになるか」という<em>改善案</em>を書く</li>
 	<li mark="※">文章にまとめなくても、箇条書き程度でOK</li>
 	<li mark="※">参考サイト:<a href="http://badui.org">「楽しいBADUIの世界」</a></li>

@@ -161,7 +161,7 @@
 <block xml:id="b-rule">
 警告・注意・指導されてルールを守るのは快くない
 <ul>
-	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>ように誘導する</li>
+	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>よう誘導する</li>
 </ul>
 </block>
 <img src="seat-gfit.jpg" scale=".25" title="足を投げ出さない座席(三菱重工業G-Fit)"/>
@@ -212,93 +212,63 @@
 </s>
 
 
-<s h="対応付け">
+<s h="色による対応付け">
 <!-- TODO: 色については主観性に移動 -->
-<s h="色覚異常">
 <frame title="\insertsubsection">
-<block class="example">
-「<em>急行</em>に乗りたいのですが…」
-<ul>
-	<li>どの電車に乗ればいい?</li>
-	<li>8:23発と9:31発の電車は同じ種別?</li>
-	<li mark="※">桜マークは女性専用車の有る電車</li>
-</ul>
-<img src="slide-ui-keio1.jpg" scale=".2" title="京王電鉄府中駅の時刻表" n="fig:keio1"/>
-<size size="small">
+<img src="keio2.jpg" scale=".3"/>
+<size size="small" xml:id="keio-cite">
 出典:<a href="http://w0s.jp/diary/285">「アクセシビリティキャンプ東京 第6回 と駅時刻表の色について - 富永日記帳」</a>
 </size>
-</block>
 </frame>
 
 <frame title="\insertsubsection">
-<block class="example">
-<em>色の見え方・感じ方</em>が、多くの色覚正常といわれる人とは異なる状態
-<ul>
-	<li>日本人男性の$5\%$、日本人女性の$0.2\%$、仏・北欧では男性の$10\%$</li>
-	<li>区別しにくい色が普通の人と違う(特に<c fg="red">赤</c>と<c fg="green">緑</c>)だけで、色がわからない訳でも白黒の世界を見ている訳でもない</li>
-</ul>
-<img src="slide-ui-keio2.jpg" scale=".2" title="8:23発は急行, 9:31発は特急" n="fig:keio2"/>
-<size size="small">
-出典:<a href="http://w0s.jp/diary/285">「アクセシビリティキャンプ東京 第6回 と駅時刻表の色について - 富永日記帳」</a>
-</size>
-</block>
+<img src="keio1.jpg" scale=".3"/>
+<xi:include xpointer="xpointer(id('keio-cite'))"/>
 </frame>
-</s>
 
-<s h="対応付け">
 <frame title="\insertsubsection">
-<block title="対応付け" class="alert">
-<alert>対応付け</alert>の方法が不適切だと、どれとどれが対応しているか見分けられない
-<ul xml:id="ul-map">
-	<li>「色覚異常の人に配慮した配色」ができれば良いが、難しい!</li>
-	<li mark="⇨"><alert>色だけに依存した対応付けは行わない</alert><br/><em>色以外の方法でも区別</em>できるように、色はあくまで<em>補助的に</em>使う</li>
+<block title="色覚異常">
+<em>色の見え方・感じ方</em>が、多くの人とは異なる状態
+<ul>
+	<li>日本人女性の$0.2\%$、日本人男性の$5\%$、仏・北欧では男性の$10\%$</li>
+	<li><c fg="red">赤</c>と<c fg="green">緑</c>など、区別しにくい色が多くの人と違う</li>
 </ul>
+</block>
 <multicols num="2">
 <img src="slide-ui-graph1.png" scale=".25" title="色だけで区別したグラフ"/>
 <img src="slide-ui-graph2.png" scale=".25" title="色が見えにくいと区別できない"/>
 </multicols>
-<size size="small">
+<size size="small" xml:id="color-cite">
 出典:福島県『カラーユニバーサルデザインガイド』<br/>
 <a href="http://www.pref.fukushima.lg.jp/sec/16005c/ud-cudguide04.html"/>
 </size>
-</block>
 </frame>
 
 <frame title="\insertsubsection">
-<block title="対応付け" class="alert">
-<alert>対応付け</alert>の方法が不適切だと、どれとどれが対応しているか見分けられない
-<xi:include xpointer="xpointer(id('ul-map'))"/>
+<block title="色覚異常" xml:id="b-color">
+「色覚異常の人に配慮した配色」ができれば良いが、難しい!
+<ul>
+	<li><alert>色だけに依存した対応付けは行わない</alert></li>
+	<li>色は<em>補助</em>で使い、<em>色以外の方法でも区別</em>できるようにする</li>
+</ul>
+</block>
 <multicols num="2">
 <img src="slide-ui-graph3.png" scale=".25" title="線や点の形でも区別"/>
 <img src="slide-ui-graph4.png" scale=".25" title="色が見えにくくても区別できる"/>
 </multicols>
-<size size="small">
-出典:福島県『カラーユニバーサルデザインガイド』<br/>
-<a href="http://www.pref.fukushima.lg.jp/sec/16005c/ud-cudguide04.html"/>
-</size>
-</block>
+<xi:include xpointer="xpointer(id('color-cite'))"/>
 </frame>
 
 <frame title="\insertsubsection">
-<block title="UDの例: 白黒コピーでも見えるグラフ" class="example">
-色に配慮して嬉しいのは、色の見え方に特性がある人だけ?
-<ul>
-	<li mark="⇨">カラーの資料が白黒コピーで配られて「見えない!」</li>
-	<li mark="⇨">色以外の情報でも区別できるグラフなら困らない!<br/>
-		<em>線の種類</em>や<em>点の形</em>を調整する、<em>線の近くにラベル</em>を置くetc.</li>
-</ul>
+<xi:include xpointer="xpointer(id('b-color'))"/>
 <multicols num="2">
 <img src="slide-ui-graph3.png" scale=".25" title="線や点の形でも区別"/>
-<img src="slide-ui-graph5.png" scale=".34" title="白黒でも区別できる"/>
+<img src="slide-ui-graph5.png" scale=".335" title="白黒でも区別できる"/>
 </multicols>
-<size size="small">
-出典:福島県『カラーユニバーサルデザインガイド』<br/>
-<a href="http://www.pref.fukushima.lg.jp/sec/16005c/ud-cudguide04.html"/>
-</size>
-</block>
+<xi:include xpointer="xpointer(id('color-cite'))"/>
 </frame>
 </s>
-</s>
+
 
 <s h="反応">
 <s h="不安障害・強迫性障害">

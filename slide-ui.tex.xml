@@ -297,8 +297,6 @@
 </size>
 </block>
 </frame>
-
-
 </s>
 </s>
 
@@ -321,8 +319,8 @@
 </ul>
 </block>
 </frame>
-
 </s>
+
 <s h="反応(feedback)">
 <frame title="\insertsubsection">
 <block title="反応(feedback)" class="alert">
@@ -334,10 +332,10 @@
 </ul>
 </block>
 </frame>
-
-
 </s>
 </s>
+
+
 <s h="可視性">
 <s h="可視性">
 <frame title="\insertsubsection">
@@ -355,7 +353,6 @@
 <img src="slide-ui-ios7.jpg" scale=".25"/>
 <img src="slide-ui-ios5.jpg" scale=".25"/>
 <img src="slide-ui-android.jpg" scale=".25"/>
-
 </multicols>
 </frame>
 
@@ -378,10 +375,10 @@
 </block>
 <img src="slide-ui-word1.jpg" scale=".5" title="「上書き保存」を表すアイコン"/>
 </frame>
-
-
 </s>
 </s>
+
+
 <s h="まとめ">
 <frame title="\insertsection">
 <block class="alert">

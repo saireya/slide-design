@@ -14,6 +14,12 @@
 	<url>http://www.clker.com/clipart-2492.html</url>
 </misc></entry>
 
+<entry id="tango"><misc>
+	<author>Tango Desktop Project</author>
+	<title>accessories-calculator.svg</title>
+	<url>http://tango.freedesktop.org</url>
+</misc></entry>
+
 <entry id="ralph"><misc>
 	<author>David Paul Ralph</author>
 	<title>Fundamentals of software design science</title>
@@ -137,6 +143,12 @@
 	<author>NEVGIV</author>
 	<title>海外ノマドして初めてわかった、カンボジアの意外な風景</title>
 	<url>http://yuuma7.com</url>
+</misc></entry>
+
+<entry id="ogata"><misc>
+	<author>緒方恵美</author>
+	<title>どっちが男性用トイレか、わからん、、、</title>
+	<url>https://twitter.com/Megumi\_Ogata/status/541542395813183488</url>
 </misc></entry>
 
 </file>

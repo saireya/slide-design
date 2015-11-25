@@ -104,7 +104,7 @@
 
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('affordance'))"/>
-<img src="slide-ui-door1.jpg" scale=".15" title="ドアの取っ手(affordanceを知覚する手がかり)"/>
+<img src="slide-ui-door1.jpg" scale=".2" title="ドアの取っ手(affordanceを知覚する手がかり)"/>
 <size size="small" xml:id="affordance-cite">
 出典: 「楽しいBADUIの世界」<br/>
 <a href="http://badui.org/articles/pull_or_push.html"/>
@@ -113,7 +113,7 @@
 
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('affordance'))"/>
-<img src="slide-ui-door2.jpg" scale=".15" title="引いても開かない!"/>
+<img src="slide-ui-door2.jpg" scale=".2" title="引いても開かない!"/>
 <xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
 
@@ -125,7 +125,7 @@
 	<li mark="⇨"><alert>不適切な手がかりは利用者を混乱</alert>させる</li>
 </ul>
 </block>
-<img src="slide-ui-door3.jpg" scale=".15" title="押すと開く!(誤った手がかり)"/>
+<img src="slide-ui-door3.jpg" scale=".2" title="押すと開く!(誤った手がかり)"/>
 <xi:include xpointer="xpointer(id('affordance-cite'))"/>
 </frame>
 
@@ -153,6 +153,12 @@
 <xi:include xpointer="xpointer(id('b-pictogram'))"/>
 <img src="slide-ui-minefield.jpg" scale=".5" title="地雷敷設地帯(出典:NEVGIV)"/>
 </frame>
+
+<frame title="\insertsubsection">
+<multicols num="2">
+<img src="slide-ui-toilet2.jpg" scale=".25" title="どちらに入ればいい?(出典:Twitter)"/>
+<img src="interface-unnoticeable.svg" scale=".25"/>
+</frame>
 </s>
 
 
@@ -164,16 +170,16 @@
 	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>よう誘導する</li>
 </ul>
 </block>
-<img src="seat-gfit.jpg" scale=".25" title="足を投げ出さない座席(三菱重工業G-Fit)"/>
+<img src="seat-gfit.jpg" scale=".3" title="足を投げ出さない座席(三菱重工業G-Fit)"/>
 </frame>
 
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('b-rule'))"/>
-<img src="seat-gfit2.jpg" scale=".3" title="ゆりかもめでの採用例(出典:朝日新聞)"/>
+<img src="seat-gfit2.jpg" scale=".4" title="ゆりかもめでの採用例(出典:朝日新聞)"/>
 </frame>
 
 <frame title="\insertsubsection">
-<img src="seat-gfit-design.png" scale=".75" title="G-Fitのデザイン(出典:日経新聞)"/>
+<img src="seat-gfit-design.png" scale=".8" title="G-Fitのデザイン(出典:日経新聞)"/>
 </frame>
 </s>
 
@@ -362,7 +368,7 @@
 <block title="宿題: bad designの改善案作成" class="example">
 <ol>
 	<li>身の回りにある<em>問題のあるデザイン</em>を探す</li>
-	<li>そのデザインを撮影(イラストも可)</li>
+	<li>そのデザインを撮影する(イラストも可)</li>
 	<li>そのデザインの<em>何が問題なのか</em>と<em>問題が起こる理由・原因</em>を書く</li>
 	<li>「どうすれば良いデザインになるか」という<em>改善案</em>を書く</li>
 	<li mark="※">文章にまとめなくても、箇条書き程度でOK</li>

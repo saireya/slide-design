@@ -151,7 +151,7 @@
 
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('b-pictogram'))"/>
-<img src="slide-ui-minefield.jpg" scale=".5" title="地雷敷設地帯(出典:NEVGIV)"/>
+<img src="slide-ui-minefield.jpg" scale=".45" title="地雷敷設地帯(出典:NEVGIV)"/>
 </frame>
 
 <frame title="\insertsubsection">
@@ -197,13 +197,18 @@
 	<li mark="※"><em>慣習</em>(一般的な表記)と一致させることも重要</li>
 </ul>
 </block>
-<multicols num="2">
-<img src="slide-ui-order.jpg" scale=".17" title="順序に一貫性がない靴箱"/>
-<img src="slide-ui-toilet.jpg" scale=".5" title="慣習と一致しない看板"/>
-</multicols>
+<img src="slide-ui-order.jpg" scale=".25" title="順序に一貫性がない靴箱"/>
 <size size="small">
 出典: 「楽しいBADUIの世界」<br/>
-<a href="http://badui.org/articles/funny_order.html"/><br/>
+<a href="http://badui.org/articles/funny_order.html"/>
+</size>
+</frame>
+
+<frame title="\insertsubsection">
+<xi:include xpointer="xpointer(id('b-consistency'))"/>
+<img src="slide-ui-toilet.jpg" scale=".8" title="慣習と一致しない看板"/>
+<size size="small">
+出典: 「楽しいBADUIの世界」<br/>
 <a href="http://badui.org/articles/maru_sankaku.html"/>
 </size>
 </frame>
@@ -358,7 +363,7 @@
 </frame>
 </s>
 </s>-->
-
+</s>
 
 <s h="まとめ">
 <frame title="\insertsection">
@@ -366,7 +371,7 @@
 <ul>
 	<li>デザインは感性や才能で決めるものではなく、<alert>論理的に</alert>決まる</li>
 	<li>デザイン能力は、それを使う<alert>相手(人間)の性質を学ぶ</alert>ことで向上する</li>
-	<li>伝える<alert>相手を意識して</alert>デザインすることが大事</li>
+	<li>伝える<alert>相手を意識して</alert>デザインする</li>
 </ul>
 </block>
 
@@ -381,7 +386,6 @@
 </ol>
 </block>
 </frame>
-</s>
 </s>
 </article>
 </log>

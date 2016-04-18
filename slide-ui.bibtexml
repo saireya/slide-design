@@ -2,6 +2,12 @@
 <?xml-stylesheet type="text/xsl" href="../../bibtexml2html.xsl"?>
 <file xmlns="http://bibtexml.sf.net/">
 
+<entry id="jnsa"><misc>
+	<author>NPO 日本ネットワークセキュリティ協会</author>
+	<title>2013年情報セキュリティインシデントに関する調査報告書~個人情報漏えい編~</title>
+	<url>http://www.jnsa.org/result/incident</url>
+</misc></entry>
+
 <entry id="userblue"><misc>
 	<author>OpenClipart</author>
 	<title>user\_blue.svg</title>

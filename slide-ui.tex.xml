@@ -4,6 +4,22 @@
 <article>
 <s h="Design">
 <frame title="\insertsection">
+<block title="Q." class="example">
+	個人情報が漏洩する原因は?<br/>
+	(JNSA『2013年情報セキュリティインシデントに関する調査報告書』より)
+</block>
+<img src="incident.svg" scale=".5"/>
+</frame>
+
+<frame title="\insertsection">
+<block title="ヒューマンエラー" class="alert">
+	意図しない結果を生じる<alert>人間の</alert>行為<br/>
+	例: <em>誤操作</em>・<em>管理ミス</em>・<em>紛失</em>・<em>設定ミス</em>
+</block>
+<img src="incident2.svg" scale=".5"/>
+</frame>
+
+<frame title="\insertsection">
 <block>
 <alert>デザイン</alert> = <em>表現の選択</em>
 <!-- TODO: 画像に差し替え -->

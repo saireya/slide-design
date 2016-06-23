@@ -161,12 +161,12 @@
 	<li mark="⇨">利用者が<alert>意識しなくても、自然と制約に従う</alert>よう誘導する</li>
 </ul>
 </block>
-<img src="seat-gfit.jpg" scale=".3" title="足を投げ出さない座席(三菱重工業G-Fit)"/>
+<img src="seat-gfit2.jpg" scale=".4" title="ゆりかもめの座席(出典:朝日新聞)"/>
 </frame>
 
 <frame title="\insertsubsection">
 <xi:include xpointer="xpointer(id('b-rule'))"/>
-<img src="seat-gfit2.jpg" scale=".4" title="ゆりかもめでの採用例(出典:朝日新聞)"/>
+<img src="seat-gfit.jpg" scale=".3" title="足を投げ出さない座席(三菱重工業G-Fit)"/>
 </frame>
 
 <frame title="\insertsubsection">

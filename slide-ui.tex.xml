@@ -22,6 +22,13 @@
 <frame title="\insertsection">
 <block>
 <alert>デザイン</alert> = <em>表現の選択</em>
+</block>
+<img src="model-media.svg" scale=".5"/>
+</frame>
+
+<frame title="\insertsection">
+<block>
+<alert>デザイン</alert> = <em>表現の選択</em>
 <ul>
 	<li>スライドのデザイン、プレゼンテーションのデザイン</li>
 	<li>建築物のデザイン、都市のデザイン</li>

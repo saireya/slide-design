@@ -53,19 +53,18 @@
 </frame>
 
 <frame title="\insertsection">
-<block title="&quot;Form Follows Function&quot;" class="alert">
-アメリカの建築家ルイス・サリヴァン(1856-1924)の言葉
+<block title="&quot;Form Follows Function&quot; (by Louis Sullivan, 1856-1924)" class="alert">
+「<alert>形態(form)は機能(function)に従う</alert>」
 <ul>
-	<li>「<alert>形(form)は機能(function)に従う</alert>」の意味</li>
 	<li>いわゆる「<em>機能美</em>」<br/>(「かわいいものはダメ」という意味ではない)</li>
-	<li mark="⇨">どういう目的があるのか、どんな機能を果たすのか、何を伝えるのかが決まれば、見た目・デザインは<alert>必然的に</alert>決まる</li>
+	<li mark="⇨">「どういう<em>目的</em>があるのか」「どんな<em>機能</em>を果たすのか」「<em>何を伝えるのか</em>」が決まれば、見た目やデザインは<alert>必然的に</alert>決まる</li>
 	<li mark="⇨"><alert>デザインは理詰めで(logicalに)決まる</alert><br/>
 		デザインは、感覚(sense)や才能で選ぶものではない!</li>
 </ul>
 </block>
 <multicols num="2">
-<img src="slide-ui-Bayard–Condict-building.jpg" scale=".3" title="Bayard–Condict Building"/>
-<img src="slide-ui-Wainwright-building.jpg" scale=".4" title="Wainwright Building"/>
+<img src="slide-ui-Bayard–Condict-building.jpg" scale=".4"/>
+<img src="slide-ui-Wainwright-building.jpg" scale=".5"/>
 </multicols>
 </frame>
 

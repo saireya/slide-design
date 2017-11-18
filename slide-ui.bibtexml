@@ -8,10 +8,28 @@
 	<url>http://www.jnsa.org/result/incident</url>
 </misc></entry>
 
+<entry id="user-male"><misc>
+	<author>acspike</author>
+	<title>Clipart - male user icon</title>
+	<url>https://openclipart.org/detail/4749</url>
+</misc></entry>
+
+<entry id="user-female"><misc>
+	<author>dagobert83</author>
+	<title>Clipart - female user icon</title>
+	<url>https://openclipart.org/detail/1646</url>
+</misc></entry>
+
 <entry id="tango"><misc>
 	<author>Tango Desktop Project</author>
-	<title>accessories-calculator.svg</title>
+	<title>Tango Desktop Project</title>
 	<url>http://tango.freedesktop.org</url>
+</misc></entry>
+
+<entry id="tango-style-pen"><misc>
+	<author>warszawianka</author>
+	<title>tango style pen</title>
+	<url>https://openclipart.org/detail/35443</url>
 </misc></entry>
 
 <entry id="ralph"><misc>

@@ -8,18 +8,6 @@
 	<url>http://www.jnsa.org/result/incident</url>
 </misc></entry>
 
-<entry id="userblue"><misc>
-	<author>OpenClipart</author>
-	<title>user\_blue.svg</title>
-	<url>http://www.clker.com/clipart-2491.html</url>
-</misc></entry>
-
-<entry id="usermulti"><misc>
-	<author>OpenClipart</author>
-	<title>user\_multi.svg</title>
-	<url>http://www.clker.com/clipart-2492.html</url>
-</misc></entry>
-
 <entry id="tango"><misc>
 	<author>Tango Desktop Project</author>
 	<title>accessories-calculator.svg</title>
